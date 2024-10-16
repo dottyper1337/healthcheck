@@ -3,7 +3,7 @@
 import os
 import shutil
 import sys
-
+print("hi my friend")
 def check_reboot():
   return os.path.exists("/run/reboot-required")
 
